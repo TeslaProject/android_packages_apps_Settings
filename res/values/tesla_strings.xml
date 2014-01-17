@@ -6,7 +6,11 @@
     <string name="build_date_default">2014-01-01-0000</string>
 
     <!-- BUILD TWEAKS  -->
-    <string name="header_category_rastapop">Tesla</string>
+    <string name="header_category_tesla">Tesla</string>
     <string name="system_settings_title">The Surge</string>
-    <string name="keywords_rastapop">Ride The Lightening</string>
+    <string name="keywords_tesla">Ride The Lightening</string>
+
+    <!-- SuperSU -->
+    <string name="supersu_title">SuperSU</string>
+
 </resources>
