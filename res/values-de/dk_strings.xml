@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 DarkKat
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Global used -->
+    <string name="position_right_title">Rechts</string>
+    <string name="position_centered_title">Zentriert</string>
+    <string name="hidden_title">Verborgen</string>
+    <string name="normal_title">Normal</string>
+    <string name="reset">Zurücksetzen</string>
+    <string name="dlg_reset_values_message">Werte auf\nAndroid- oder DarkKat Standard\nzurück setzen?</string>
+    <string name="dlg_reset_android">Android</string>
+    <string name="dlg_reset_darkkat">DarkKat</string>
+    <string name="color_title">Farbe</string>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Farbauswahl</string>
+    <string name="press_color_to_apply">Drücke unten auf eine Farbe um sie anzuwenden</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Setzen</string>
+
+    <!-- dashboard categories-->
+    <string name="category_ui_section">Benutzeroberfläche</string>
+
+    <!-- dashboard tiles-->
+    <string name="bars">Bars</string>
+
+    <!-- Bars settings -->
+    <string name="status_bar_title">Statusleiste</string>
+    <string name="status_bar_summary">Statusleiste anpassen</string>
+
+    <!-- Status bar -->
+    <string name="status_bar_clock_date_settings_title">Uhr &amp; Datum</string>
+    <string name="status_bar_clock_date_settings_summary">Die Uhr &amp; das Datum anpassen</string>
+
+    <!-- clock and date settings -->
+    <string name="clock_date_position_title">Position</string>
+    <string name="clock_date_cat_clock_date_title">Uhr &amp; Datum</string>
+    <string name="clock_date_cat_clock_title">Uhr</string>
+    <string name="clock_date_cat_date_title">Datum</string>
+    <string name="clock_date_show_date_title">Das Datum anzeigen</string>
+    <string name="clock_date_show_date_summary">Aktivieren um das Datum neben der Uhr in der Statusleiste anzuzeigen</string>
+    <string name="clock_date_am_pm_title">AM&#47;PM Style</string>
+    <string name="clock_date_am_pm_disabled_summary">24-Stunden-Format ist aktiviert</string>
+    <string name="clock_date_am_pm_small">Klein</string>
+    <string name="clock_date_date_size_title">Größe</string>
+    <string name="clock_date_date_size_summary">Aktivieren um ein kleines Datum anzuzeigen</string>
+    <string name="clock_date_date_style_title">Style</string>
+    <string name="clock_date_date_style_lowercase">Kleinbuchstaben</string>
+    <string name="clock_date_date_style_uppercase">Großbuchstaben</string>
+    <string name="clock_date_date_format_title">Datumsformat</string>
+    <string name="clock_date_date_custom_java_format">Eigenes Java Format</string>
+    <string name="clock_date_date_string_edittext_title">Muß in Java DateFormat Schreibweise sein, z.B. MM/dd/yy</string>
+    <string name="clock_date_date_string_edittext_summary">Zeichenfolge eingeben</string>
+
+    <!-- Development settings -->
+
+    <!-- Advanced reboot options -->
+    <string name="advanced_reboot_title">Erweitertes Neustartmenü</string>
+    <string name="advanced_reboot_summary">Bei entsperrtem Bildschirm dem Neustartmenü Optionen Schneller Neustart, Neustart in Recovery und Neustart in Bootloader hinzufügen</string>
+
+    <!-- Device info settings -->
+    <string name="cpu_info">CPU</string>
+    <string name="mem_info">Arbeitsspeicher</string>
+    <string name="dk_version">DarkKat-Version</string>
+    <string name="build_date">Build-Datum</string>
+</resources>

@@ -5,4 +5,11 @@
     android:title="@string/system_settings_title"
     settings:keywords="@string/keywords_tesla" >
 
+    <!-- Bars -->
+    <PreferenceScreen
+        android:id="@+id/bars"
+        android:title="@string/bars"
+        android:fragment="com.android.settings.darkkat.Bars"
+        android:icon="@drawable/ic_settings_bars" />
+
 </PreferenceScreen>

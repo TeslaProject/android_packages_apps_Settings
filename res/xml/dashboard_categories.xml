@@ -91,7 +91,7 @@
                 android:fragment="com.android.settings.tesla.SystemSettings"
                 android:icon="@drawable/ic_settings_system"
                 />
-    
+
     </dashboard-category>
 
     <!-- DEVICE -->

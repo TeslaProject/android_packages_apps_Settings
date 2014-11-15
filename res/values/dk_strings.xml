@@ -1,44 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 DarkKat
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
-    <!-- About phone screen, build date of ROM -->
-    <string name="build_date">Tesla Project Build Date</string>
-    <string name="build_date_default">2014-01-01-0000</string>
-
-    <!-- BUILD TWEAKS  -->
-    <string name="header_category_tesla">Tesla</string>
-    <string name="system_settings_title">The Surge</string>
-    <string name="keywords_tesla">Ride The Lightening</string>
-
-    <!-- SuperSU -->
-    <string name="supersu_title">SuperSU</string>
-
-    <!-- Advanced, Device specific (DeviceParts) settings  -->
-    <string name="device_settings_title">Device</string>
-
-    <!-- Preference category for LAN development settings. [CHAR LIMIT=25] -->
-    <string name="debug_LAN_category">LAN Settings</string>
-
-    <!-- Hostname setting -->
-    <string name="device_hostname">Device hostname</string>
-
-    <!-- Keyboard and Input ASS methods  -->
-    <string name="title_keyboard_input">Advanced options</string>
-    <string name="disable_fullscreen_keyboard_title">Disable fullscreen keyboard</string>
-    <string name="disable_fullscreen_keyboard_summary">Landscape keyboard will never take up entire screen</string>
-    <string name="volume_key_cursor_control_title">Volume key cursor control</string>
-    <string name="volume_key_cursor_control_on">Volume up/down moves cursor left/right</string>
-    <string name="volume_key_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
-    <string name="keyboard_rotation_toggle_title">Auto keyboard rotation</string>
-    <string name="keyboard_rotation_toggle_summary">Force auto-rotate when keyboard is shown</string>
-    <string name="keyboard_rotation_timeout_title">Auto-rotate timeout</string>
-    <string name="keyboard_rotation_timeout_summary">Disables auto-rotate sensor <xliff:g id="rotate_timeout">%1$s</xliff:g> seconds after keyboard is hidden</string>
-    <string name="keyboard_rotation_dialog">This feature forces auto-rotate to turn on temporarily while the keyboard is shown.  It has no effect when auto-rotate is already enabled.</string>
-    <string name="show_enter_key_title">Show enter key</string>
-    <string name="show_enter_key_summary">Force keyboard to show enter instead of emoticon key</string>
-    <string name="ime_switcher_notify">Selector notification</string>
-    <string name="ime_switcher_notify_summary">Display input method selector notification</string>
-    <string name="attention">Attention</string>
 
     <!-- Global used -->
     <string name="position_right_title">Right</string>
@@ -46,9 +21,9 @@
     <string name="hidden_title">Hidden</string>
     <string name="normal_title">Normal</string>
     <string name="reset">Reset</string>
-    <string name="dlg_reset_values_message">Reset values to\nAndroid- or Tesla default?</string>
+    <string name="dlg_reset_values_message">Reset values to\nAndroid- or DarkKat default?</string>
     <string name="dlg_reset_android">Android</string>
-    <string name="dlg_reset_darkkat">Tesla Project</string>
+    <string name="dlg_reset_darkkat">DarkKat</string>
     <string name="color_title">Color</string>
 
     <!-- Color Picker -->
@@ -64,7 +39,7 @@
     <string name="category_ui_section">User interface</string>
 
     <!-- dashboard tiles-->
-    <string name="bars">Status Bar</string>
+    <string name="bars">Bars</string>
 
     <!-- Bars settings -->
     <string name="status_bar_title">Status bar</string>
@@ -94,4 +69,15 @@
     <string name="clock_date_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
     <string name="clock_date_date_string_edittext_summary">Enter string</string>
 
+    <!-- Development settings -->
+
+    <!-- Advanced reboot options -->
+    <string name="advanced_reboot_title">Advanced reboot</string>
+    <string name="advanced_reboot_summary">When unlocked, include options in the power menu for quick rebooting, rebooting into recovery and rebooting into bootloader</string>
+
+    <!-- Device info settings -->
+    <string name="cpu_info">CPU</string>
+    <string name="mem_info">Memory</string>
+    <string name="dk_version">DarkKat version</string>
+    <string name="build_date">Build date</string>
 </resources>
