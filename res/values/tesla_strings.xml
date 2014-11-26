@@ -76,10 +76,16 @@
     <string name="status_bar_summary">Customize status bar</string>
 
     <!-- Status bar -->
+    <string name="status_bar_gestures_title">Gestures</string>
+    <string name="status_bar_gestures_summary">Customize gestures</string>
     <string name="status_bar_clock_date_settings_title">Clock &amp; date</string>
     <string name="status_bar_clock_date_settings_summary">Customize the clock &amp; the date</string>
     <string name="status_bar_signal_wifi_settings_title">Network Icons</string>
     <string name="status_bar_signal_wifi_settings_summary">Alter Network Icons</string>
+
+    <!-- Status bar gestures -->
+    <string name="status_bar_double_tap_to_sleep_title">Sleep</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Double tap the status bar to put the device to sleep</string>
 
     <!-- clock and date settings -->
     <string name="clock_date_position_title">Position</string>
