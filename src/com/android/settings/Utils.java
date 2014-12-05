@@ -1145,4 +1145,20 @@ public final class Utils {
         }
         activity.setRequestedOrientation(frozenRotation);
     }
+
+    public static boolean isPackageInstalled(Context context, String pkg) {
+        if (pkg == null) {
+            return false;
+        }
+        try {
+            PackageInfo pi = context.getPackageManager().getPackageInfo(pkg, 0);
+            if (!pi.applicationInfo.enabled) {
+                return false;
+            } else {
+                return true;
+            }
+        } catch (NameNotFoundException e) {
+            return false;
+        }
+    }
 }
