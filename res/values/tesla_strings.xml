@@ -9,6 +9,7 @@
     <string name="keywords_tesla">Ride The Lightening</string>
     <string name="options_title">Options</string>
     <string name="icon_title">Icon</string>
+    <string name="cat_colors_title">Customize colors</string>
 
     <!-- SuperSU -->
     <string name="supersu_title">SuperSU</string>
@@ -97,6 +98,9 @@
     <string name="status_bar_toggle_info">Automatic brightness is enabled</string>
     <string name="status_bar_double_tap_to_sleep_title">Sleep</string>
     <string name="status_bar_double_tap_to_sleep_summary">Double tap the status bar to put the device to sleep</string>
+    <string name="status_bar_notif_system_icons_settings_title">Notifications &amp; system icons</string>
+    <string name="status_bar_notif_system_icons_settings_title_phone">Notif. &amp; system icons</string>
+    <string name="status_bar_notif_system_icons_settings_summary">Customize the notifications &amp; system icons</string>
 
     <string name="lock_clock_clock_section_title">Clock and alarm</string>
     <string name="lock_clock_clock_section_summary">View or change how the clock of the \'cLock\' Home  widget will display</string>
@@ -104,6 +108,19 @@
     <string name="lock_clock_weather_section_summary">View or change how the weather of the \'cLock\' Home  widget will display</string>
     <string name="lock_clock_calendar_section_title">Calendar events</string>
     <string name="lock_clock_calendar_section_summary">View or change how the calendar of the \'cLock\' Home  widget will display</string>
+
+    <!-- Status bar notifications and system icons -->
+    <string name="notif_system_icons_colorize_notif_icons_title">Colorize notification icons</string>
+    <string name="notif_system_icons_colorize_notif_icons_title_phone">Colorize notif. icons</string>
+    <string name="notif_system_icons_colorize_notif_icons_summary">Enable to colorize the notification icons color</string>
+    <string name="notif_system_icons_show_ticker_title">Show ticker</string>
+    <string name="notif_system_icons_show_ticker_summary">Enable to show the ticker</string>
+    <string name="notif_system_icons_show_count_title">Notification count</string>
+    <string name="notif_system_icons_show_count_summary">Enable to display the number of pending notifications</string>
+    <string name="notif_system_icons_icon_color_title">Icons</string>
+    <string name="notif_system_icons_notif_text_color_title">Ticker text</string>
+    <string name="notif_system_icons_count_icon_color_title">Notification count icon</string>
+    <string name="notif_system_icons_count_text_color_title">Notification count Text</string>
 
     <!-- clock and date settings -->
     <string name="clock_date_position_title">Position</string>
