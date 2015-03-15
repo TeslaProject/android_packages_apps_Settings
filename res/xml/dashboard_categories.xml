@@ -71,6 +71,21 @@
 
     </dashboard-category>
 
+    <!-- Tesla -->
+    <dashboard-category
+            android:id="@+id/tesla_section"
+            android:title="@string/header_category_tesla" >
+
+        <!-- Build Tweaks -->
+        <dashboard-tile
+                android:id="@+id/tesla_settings"
+                android:title="@string/system_settings_title"
+                android:fragment="com.android.settings.tesla.SystemSettings"
+                android:icon="@drawable/ic_settings_system"
+                />
+    
+    </dashboard-category>
+
     <!-- DEVICE -->
     <dashboard-category
             android:id="@+id/device_section"

@@ -4,4 +4,9 @@
     <!-- About phone screen, build date of ROM -->
     <string name="build_date">Tesla Project Build Date</string>
     <string name="build_date_default">2014-01-01-0000</string>
+
+    <!-- BUILD TWEAKS  -->
+    <string name="header_category_rastapop">Tesla</string>
+    <string name="system_settings_title">The Surge</string>
+    <string name="keywords_rastapop">Ride The Lightening</string>
 </resources>
