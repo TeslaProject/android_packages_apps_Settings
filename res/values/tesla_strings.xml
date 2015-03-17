@@ -41,6 +41,9 @@
     <string name="attention">Attention</string>
 
     <!-- Global used -->
+    <string name="cat_network_icons_title">Network icons</string>
+    <string name="cat_network_activity_icons_title">Activity icons</string>
+    <string name="cat_airplane_mode_icon_title">Airplane mode icons</string>
     <string name="position_right_title">Right</string>
     <string name="position_centered_title">Centered</string>
     <string name="hidden_title">Hidden</string>
@@ -50,6 +53,8 @@
     <string name="dlg_reset_android">Android</string>
     <string name="dlg_reset_darkkat">Tesla Project</string>
     <string name="color_title">Color</string>
+    <string name="color_normal_title">Normal</string>
+    <string name="color_fully_title">Fully connected</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
@@ -73,6 +78,8 @@
     <!-- Status bar -->
     <string name="status_bar_clock_date_settings_title">Clock &amp; date</string>
     <string name="status_bar_clock_date_settings_summary">Customize the clock &amp; the date</string>
+    <string name="status_bar_signal_wifi_settings_title">Network Icons</string>
+    <string name="status_bar_signal_wifi_settings_summary">Alter Network Icons</string>
 
     <!-- clock and date settings -->
     <string name="clock_date_position_title">Position</string>
@@ -93,5 +100,9 @@
     <string name="clock_date_date_custom_java_format">Custom java format</string>
     <string name="clock_date_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
     <string name="clock_date_date_string_edittext_summary">Enter string</string>
+
+    <!-- Status bar signal wifi icon settings  -->
+    <string name="signal_wifi_show_activity_title">Show network activity</string>
+    <string name="signal_wifi_show_activity_summary">Enable to show the network activity</string>
 
 </resources>
