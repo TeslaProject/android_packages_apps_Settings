@@ -11,8 +11,12 @@
     <string name="icon_title">Icon</string>
     <string name="cat_colors_title">Customize colors</string>
     <string name="colors_title">Colors</string>
+    <string name="background_title">Background</string>
     <string name="icons_title">Icons</string>
     <string name="text_title">Text</string>
+    <string name="display_rotation_title">Display rotation</string>
+    <string name="more_title">More</string>
+    <string name="button_settings_title">Buttons</string>
 
     <!-- SuperSU -->
     <string name="supersu_title">SuperSU</string>
@@ -80,6 +84,7 @@
     <string name="status_bar_summary">Customize status bar</string>
     <string name="status_bar_expanded_title">Status bar expanded</string>
     <string name="status_bar_expanded_summary">Customize status bar expanded</string>
+    <string name="status_bar_expanded_qs_settings_title">Quick settings</string>
 
     <!-- Status bar -->
     <string name="status_bar_gestures_title">Gestures</string>
@@ -218,5 +223,22 @@
     <string name="network_speed_bit_byte_summary">Enable to show the values in bit instead of byte</string>
     <string name="network_speed_hide_indicator_title">Hide the indicator</string>
     <string name="network_speed_hide_indicator_summary">Enable to hide the indicator if there is no traffic</string>
+
+    <!-- Quick settings -->
+    <string name="qs_quick_pulldown_title">Quick pulldown</string>
+    <string name="qs_quick_pulldown_summary">Enable to use the right edge of the status bar to pull down Quick Settings</string>
+    <string name="qs_order_title">Select and order tiles</string>
+    <string name="add_qs">Add new tile</string>
+    <string name="cast_screen">Cast screen</string>
+    <string name="hotspot">Hotspot</string>
+    <string name="qs_action_delete">Delete</string>
+    <string name="qs_action_add">Add</string>
+    <string name="qs_action_no_more_tiles">No more tiles available</string>
+    <string name="qs_main_tiles_title">Enlarge first row</string>
+    <string name="qs_main_tiles_summary">Enable to show 2 main tiles on the first row, disable to show 3 tiles</string>
+    <string name="qs_advanced_location_title">Advanced location quick settings</string>
+    <string name="qs_advanced_location_summary">Enable advanced settings for location in quick settings</string>
+    <string name="qs_show_brightness_slider_title">Show brightness slider</string>
+    <string name="qs_show_brightness_slider_summary">Enable to show the brightness slider</string>
 
 </resources>
