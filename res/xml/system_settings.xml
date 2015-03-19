@@ -11,4 +11,9 @@
         android:summary="@string/status_bar_summary"
         android:fragment="com.android.settings.darkkat.Statusbar" />
 
+   <PreferenceScreen
+        android:id="@+id/more"
+        android:title="@string/more"
+        android:fragment="com.android.settings.darkkat.More" />
+
 </PreferenceScreen>
