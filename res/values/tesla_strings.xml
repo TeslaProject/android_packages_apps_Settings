@@ -241,4 +241,8 @@
     <string name="qs_show_brightness_slider_title">Show brightness slider</string>
     <string name="qs_show_brightness_slider_summary">Enable to show the brightness slider</string>
 
+    <!-- Advanced reboot options -->
+    <string name="advanced_reboot_title">Advanced reboot</string>
+    <string name="advanced_reboot_summary">When unlocked, include options in the power menu for quick rebooting, rebooting into recovery and rebooting into bootloader</string>
+
 </resources>
