@@ -25,12 +25,12 @@
     <PreferenceScreen
         android:key="lock_screen_color_settings"
         android:title="@string/colors_title"
-		android:summary="@string/lock_screen_color_settings_summary"
+		android:summary="@string/cat_colors_title"
         android:fragment="com.android.settings.tesla.LockScreenColorSettings" />
 
     <PreferenceScreen
         android:key="lock_screen_weather_settings"
-        android:title="@string/lock_screen_weather_settings_title"
+        android:title="@string/weather_title"
 		android:summary="@string/lock_screen_weather_settings_summary"
         android:fragment="com.android.settings.tesla.LockScreenWeatherSettings" />
 

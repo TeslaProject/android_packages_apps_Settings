@@ -52,6 +52,7 @@
     <string name="cat_network_icons_title">Network icons</string>
     <string name="cat_network_activity_icons_title">Activity icons</string>
     <string name="cat_airplane_mode_icon_title">Airplane mode icons</string>
+    <string name="disabled_title">Disabled</string>
     <string name="position_right_title">Right</string>
     <string name="position_centered_title">Centered</string>
     <string name="hidden_title">Hidden</string>
@@ -61,8 +62,14 @@
     <string name="dlg_reset_android">Android</string>
     <string name="dlg_reset_darkkat">Tesla Project</string>
     <string name="color_title">Color</string>
-    <string name="color_normal_title">Normal</string>
     <string name="color_fully_title">Fully connected</string>
+    <string name="weather_title">Weather</string>
+
+    <!-- Shortcut Picker -->
+    <string name="picker_apps_title">Apps</string>
+    <string name="picker_activities_title">Activities</string>
+    <string name="picker_select_custom_app_title">Select custom app</string>
+    <string name="picker_select_custom_activity_title">Select custom activity</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>

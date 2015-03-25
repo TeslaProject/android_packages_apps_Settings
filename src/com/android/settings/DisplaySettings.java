@@ -224,9 +224,9 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
         // We have a preference, lets update the summary
         boolean rotationEnabled = Settings.System.getInt(getContentResolver(),
                 Settings.System.ACCELEROMETER_ROTATION, 0) != 0;
-
+            mDisplayRotationPreference.setSummary(R.string.disabled_title);
         if (!rotationEnabled) {
-            mDisplayRotationPreference.setSummary(R.string.display_rotation_disabled);
+
             return;
         }
 
