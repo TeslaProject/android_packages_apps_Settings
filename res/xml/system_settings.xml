@@ -17,6 +17,11 @@
         android:fragment="com.android.settings.darkkat.Statusbar" />
 
    <PreferenceScreen
+        android:id="@+id/lock_screen"
+        android:title="@string/lock_screen_title"
+        android:fragment="com.android.settings.tesla.LockScreen" />
+
+   <PreferenceScreen
         android:id="@+id/more"
         android:title="@string/more"
         android:fragment="com.android.settings.darkkat.More" />
