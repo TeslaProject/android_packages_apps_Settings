@@ -92,14 +92,7 @@
                 android:icon="@drawable/ic_settings_system"
                 />
 
-    </dashboard-category>
-
-    <!-- DEVICE -->
-    <dashboard-category
-            android:id="@+id/device_section"
-            android:title="@string/header_category_device" >
-      
-      <!-- BitSyko Layers App -->
+     <!-- BitSyko Layers App -->
       <dashboard-tile
                 android:id="@+id/bitsyko_layers"
                 android:icon="@drawable/ic_bitsyko_layers"
@@ -109,6 +102,27 @@
                     android:targetPackage="com.lovejoy777.rroandlayersmanager"
                     android:targetClass="com.lovejoy777.rroandlayersmanager.menu" />
       </dashboard-tile>
+
+        <!-- Weather settings -->
+        <dashboard-tile
+                android:id="@+id/weather_settings"
+                android:title="@string/weather_settings_title"
+                android:icon="@drawable/ic_settings_weather">
+                <intent
+                    android:action="android.intent.action.MAIN"
+                    android:targetClass="com.cyanogenmod.lockclock.preference.Preferences"
+                    android:targetPackage="com.cyanogenmod.lockclock" >
+                    <extra android:name=":android:show_fragment"
+                        android:value="com.cyanogenmod.lockclock.preference.WeatherSettingPreferences" />
+                </intent>
+        </dashboard-tile>
+
+    </dashboard-category>
+
+    <!-- DEVICE -->
+    <dashboard-category
+            android:id="@+id/device_section"
+            android:title="@string/header_category_device" >
 
         <!-- Home -->
         <dashboard-tile
