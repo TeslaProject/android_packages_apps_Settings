@@ -314,4 +314,16 @@
     <string name="picker_select_custom_app_title">Select custom app</string>
     <string name="picker_select_custom_activity_title">Select custom activity</string>
 
+    <string name="expanded_desktop_title">Expanded desktop</string>
+    <string name="expanded_desktop_summary">Customize expanded desktop</string>
+
+    <!-- Expanded desktop -->
+    <string name="expanded_hide_nothing">Hide nothing</string>
+    <string name="expanded_hide_status">Hide status bar</string>
+    <string name="expanded_hide_navigation">Hide navigation bar</string>
+    <string name="expanded_hide_both">Hide both</string>
+    <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set \'Enabled for all\' to the off position</string>
+    <string name="expanded_enabled_for_all">Enabled for all</string>
+    <string name="expanded_desktop_style">Expanded desktop style</string>
+    <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
 </resources>
