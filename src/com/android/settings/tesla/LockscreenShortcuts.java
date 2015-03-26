@@ -18,7 +18,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import com.android.internal.util.tesla.LockscreenShortcutsHelper;
+import com.android.internal.util.darkkat.LockscreenShortcutsHelper;
 import com.android.settings.R;
 
 import com.android.settings.cyanogenmod.GlowBackground;

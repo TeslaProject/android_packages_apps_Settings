@@ -1351,7 +1351,7 @@
                 android:resource="@id/print_settings" />
         </activity>
 
-	<activity android:name=".tesla.ButtonSettings" />
+	<activity android:name=".darkkat.ButtonSettings" />
 
         <!-- Keep compatibility with old shortcuts. -->
         <activity-alias android:name="DevelopmentSettings"

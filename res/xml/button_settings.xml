@@ -22,7 +22,7 @@ limitations under the License.
         android:key="button_power_menu_settings"
         android:title="@string/button_power_menu_settings_title"
         android:summary="@string/button_power_menu_settings_summary"
-        android:fragment="com.android.settings.darkkat.PowerMenuSettings" />
+        android:fragment="com.android.settings.tesla.PowerMenuSettings" />
 
     <PreferenceCategory
         android:key="button_volume_button_category"

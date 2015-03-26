@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.tesla;
+package com.android.settings.darkkat;
 
 import android.os.Bundle;
 import android.preference.CheckBoxPreference;
