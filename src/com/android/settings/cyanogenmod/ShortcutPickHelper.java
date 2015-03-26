@@ -157,7 +157,7 @@ public class ShortcutPickHelper {
                     return true;
                 }
             });
-            Builder builder = new Builder(mParent, com.android.internal.R.style.Theme_Material_Dialog_Alert_DarkKat);
+            Builder builder = new Builder(mParent, com.android.internal.R.style.Theme_Material_Dialog_Alert);
             builder.setView(appListView);
             mAlertDialog = builder.create();
             mAlertDialog.setTitle(mParent.getString(R.string.picker_select_custom_activity_title));
