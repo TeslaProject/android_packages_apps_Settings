@@ -26,6 +26,11 @@
             <intent android:action="android.intent.action.SHOW_BRIGHTNESS_DIALOG" />
         </PreferenceScreen>
 
+        <ListPreference
+                android:key="lcd_density"
+                android:title="@string/lcd_density"
+                android:persistent="false" />
+
     <PreferenceScreen
         android:key="expanded_desktop"
         android:title="@string/expanded_desktop_title"

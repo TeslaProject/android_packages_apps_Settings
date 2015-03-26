@@ -15,6 +15,11 @@
                 android:summary="@string/navigation_bar_arrow_keys_summary"
                 android:defaultValue="false" />
 
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+                android:key="navigation_bar_tint"
+                android:title="@string/navbar_button_tint_title"
+                android:defaultValue="#ffffff" />
+
         <ListPreference
                 android:key="navigation_bar_height"
                 android:dialogTitle="@string/navigation_bar_height"
