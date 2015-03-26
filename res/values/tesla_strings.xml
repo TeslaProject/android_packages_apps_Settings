@@ -404,4 +404,10 @@
     <string name="trigger_top_summary">Adjust the position of trigger area</string>
     <string name="trigger_bottom_title">Trigger height</string>
     <string name="trigger_bottom_summary">Adjust the height of trigger area</string>
+
+    <!-- Show/Hide Search Bar -->
+    <string name="recents_show_searchbar">Disable Search Bar in Recents Menu</string>
+    <string name="recents_show_searchbar_summary">Disable or enable the Google search bar in the recents menu</string>
+    <string name="keywords_recents_show_searchbar">recent recents disable search bar searchbar hide</string>
+
 </resources>
