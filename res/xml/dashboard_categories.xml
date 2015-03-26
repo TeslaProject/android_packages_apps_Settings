@@ -107,7 +107,7 @@
         <dashboard-tile
             android:id="@+id/button_settings"
             android:title="@string/button_settings_title"
-            android:fragment="com.android.settings.tesla.ButtonSettings"
+            android:fragment="com.android.settings.darkkat.ButtonSettings"
             android:icon="@drawable/ic_settings_buttons"
             />
 
