@@ -200,8 +200,7 @@ public class LockscreenShortcuts extends Fragment implements View.OnClickListene
             }
         };
 
-        final AlertDialog dialog = new AlertDialog.Builder(
-                getActivity(), AlertDialog.THEME_MATERIAL_DARK)
+        final AlertDialog dialog = new AlertDialog.Builder(getActivity())
                 .setTitle(R.string.shortcuts_reassign_shortcut_title)
                 .setItems(mActions.getEntries(), l)
                 .setOnCancelListener(cancel)
