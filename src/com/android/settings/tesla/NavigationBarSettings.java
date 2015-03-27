@@ -2,7 +2,9 @@
 package com.android.settings.tesla;
 
 import android.content.ContentResolver;
+import android.content.res.Resources;
 import android.os.Bundle;
+import android.os.UserHandle;
 import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.Preference.OnPreferenceChangeListener;
@@ -21,8 +23,11 @@ OnPreferenceChangeListener {
 
     private static final String NAVIGATION_BAR_TINT = "navigation_bar_tint";
 
+    private static final String RECENTS_CLEAR_ALL_LOCATION = "recents_clear_all_location";
+
     private ListPreference mNavigationBarHeight;
     private ColorPickerPreference mNavbarButtonTint;
+    private ListPreference mRecentsClearAllLocation;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -46,6 +51,13 @@ OnPreferenceChangeListener {
         mNavbarButtonTint.setSummary(hexColor);
         mNavbarButtonTint.setNewPreviewColor(intColor);
 
+        mRecentsClearAllLocation = (ListPreference) findPreference(RECENTS_CLEAR_ALL_LOCATION);
+        int location = Settings.System.getIntForUser(getActivity().getContentResolver(),
+                Settings.System.RECENTS_CLEAR_ALL_LOCATION, 0, UserHandle.USER_CURRENT);
+        mRecentsClearAllLocation.setValue(String.valueOf(location));
+        mRecentsClearAllLocation.setSummary(mRecentsClearAllLocation.getEntry());
+        mRecentsClearAllLocation.setOnPreferenceChangeListener(this);
+
     }
 
     public boolean onPreferenceChange(Preference preference, Object objValue) {
@@ -57,7 +69,6 @@ OnPreferenceChangeListener {
             mNavigationBarHeight.setSummary(mNavigationBarHeight.getEntries()[index]);
         }
         return true;
-
         } else if (preference == mNavbarButtonTint) {
             String hex = ColorPickerPreference.convertToARGB(
                     Integer.valueOf(String.valueOf(objValue)));
@@ -66,6 +77,14 @@ OnPreferenceChangeListener {
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.NAVIGATION_BAR_TINT, intHex);
             return true;
-
+        } else if (preference == mRecentsClearAllLocation) {
+            int location = Integer.valueOf((String) objValue);
+            int index = mRecentsClearAllLocation.findIndexOfValue((String) objValue);
+            Settings.System.putIntForUser(getActivity().getContentResolver(),
+                    Settings.System.RECENTS_CLEAR_ALL_LOCATION, location, UserHandle.USER_CURRENT);
+            mRecentsClearAllLocation.setSummary(mRecentsClearAllLocation.getEntries()[index]);
+            return true;
+        }
+        return false;
     }
 }
