@@ -2,6 +2,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="more">Lockclock</string>
+    <string name="ok">OK</string>
 
     <!-- About phone screen, build date -->
     <string name="build_date">Build date</string>
