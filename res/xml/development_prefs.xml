@@ -338,11 +338,6 @@
             android:inputType="textNoSuggestions"
             android:persistent="false" />
 
-        <SwitchPreference
-            android:key="kill_app_longpress_back"
-            android:title="@string/kill_app_longpress_back"
-            android:summary="@string/kill_app_longpress_back_summary"/>
-
      </PreferenceCategory>
 
 </PreferenceScreen>
