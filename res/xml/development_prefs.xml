@@ -33,11 +33,6 @@
     </PreferenceScreen>
 
     <SwitchPreference
-        android:key="advanced_reboot"
-        android:title="@string/advanced_reboot_title"
-        android:summary="@string/advanced_reboot_summary" />
-
-    <SwitchPreference
         android:key="keep_screen_on"
         android:title="@string/keep_screen_on"
         android:summary="@string/keep_screen_on_summary"/>
@@ -121,17 +116,17 @@
 
         <SwitchPreference
             android:key="wifi_verbose_logging"
-            android:title="@string/wifi_verbose_logging" />
+            android:title="@string/wifi_verbose_logging" 
             android:summary="@string/wifi_verbose_logging_summary"/>
 
         <SwitchPreference
             android:key="wifi_aggressive_handover"
-            android:title="@string/wifi_aggressive_handover" />
+            android:title="@string/wifi_aggressive_handover" 
             android:summary="@string/wifi_aggressive_handover_summary"/>
 
        <SwitchPreference
             android:key="wifi_allow_scan_with_traffic"
-            android:title="@string/wifi_allow_scan_with_traffic" />
+            android:title="@string/wifi_allow_scan_with_traffic" 
             android:summary="@string/wifi_allow_scan_with_traffic_summary"/>
 
         <ListPreference

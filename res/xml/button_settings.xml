@@ -18,12 +18,6 @@ limitations under the License.
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/button_settings_title">
 
-    <PreferenceScreen
-        android:key="button_power_menu_settings"
-        android:title="@string/button_power_menu_settings_title"
-        android:summary="@string/button_power_menu_settings_summary"
-        android:fragment="com.android.settings.tesla.PowerMenuSettings" />
-
     <PreferenceCategory
         android:key="button_volume_button_category"
         android:title="@string/button_volume_button_category_title">
