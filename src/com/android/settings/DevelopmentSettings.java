@@ -584,12 +584,6 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
         }
     }
 
-
-    private void updateAdvancedRebootOptions() {
-        mAdvancedReboot.setChecked(Settings.System.getInt(getActivity().getContentResolver(),
-                Settings.System.ADVANCED_REBOOT, 0) != 0);
-    }
-
     private void resetDangerousOptions() {
         mDontPokeProperties = true;
         for (int i=0; i< mResetSwitchPrefs.size(); i++) {
