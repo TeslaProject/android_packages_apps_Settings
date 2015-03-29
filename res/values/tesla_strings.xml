@@ -3,6 +3,7 @@
 
     <string name="more">Lockclock</string>
     <string name="ok">OK</string>
+    <string name="performance_settings">Performance</string>
 
     <!-- About phone screen, build date -->
     <string name="build_date">Build date</string>
