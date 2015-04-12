@@ -1353,6 +1353,9 @@
 
 	<activity android:name=".darkkat.ButtonSettings" />
 
+        <activity android:name=".notificationlight.NotificationLightSettings" />
+        <activity android:name=".notificationlight.BatteryLightSettings" />
+
         <!-- Keep compatibility with old shortcuts. -->
         <activity-alias android:name="DevelopmentSettings"
                   android:exported="true"
