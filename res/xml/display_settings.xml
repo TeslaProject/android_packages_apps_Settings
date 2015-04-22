@@ -52,7 +52,7 @@
 
         <PreferenceScreen
             android:key="display_rotation"
-            android:fragment="com.android.settings.darkkat.DisplayRotationSettings"
+            android:fragment="com.android.settings.tesla.DisplayRotationSettings"
             android:title="@string/display_rotation_settings_title" />
 
         <ListPreference
