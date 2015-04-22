@@ -23,11 +23,6 @@
                 android:defaultValue="48"
                 android:persistent="false" />
                 
-       <!-- OmniSwitch -->
-        <PreferenceScreen
-            android:title="@string/omniswitch_settings_title"
-            android:fragment="com.android.settings.tesla.OmniSwitch" />                
-
         <com.android.settings.tesla.SystemSettingSwitchPreference
                 android:key="recents_show_hide_search_bar"
                 android:title="@string/recents_show_searchbar"
