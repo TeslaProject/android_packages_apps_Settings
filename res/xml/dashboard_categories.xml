@@ -89,7 +89,7 @@
                 android:id="@+id/tesla_settings"
                 android:title="@string/system_settings_title"
                 android:fragment="com.android.settings.tesla.SystemSettings"
-                android:icon="@drawable/ic_settings_system"
+                android:icon="@drawable/ic_tesla_settings"
                 />
 
      <!-- BitSyko Layers App -->

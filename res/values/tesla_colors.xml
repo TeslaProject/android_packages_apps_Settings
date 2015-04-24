@@ -28,6 +28,7 @@
     <!-- Quick settings -->
     <color name="qs_background_color">#ff424242</color>
     <color name="qs_dialog_add_tile_icon_color">#ffffffff</color>
+    <color name="exposed_qs_tile_text">#de000000</color>
 
     <!-- DSLV colors -->
     <color name="dslv_icon_dark">#ff009688</color>
