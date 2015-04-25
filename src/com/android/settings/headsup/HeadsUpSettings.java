@@ -44,8 +44,8 @@ import com.android.internal.util.cm.ScreenType;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.settings.terminus.PackageListAdapter;
-import com.android.settings.terminus.PackageListAdapter.PackageItem;
+import com.android.settings.cyanogenmod.PackageListAdapter;
+import com.android.settings.cyanogenmod.PackageListAdapter.PackageItem;
 import com.android.settings.SettingsActivity;
 import com.android.settings.terminus.BaseSystemSettingSwitchBar;
 
