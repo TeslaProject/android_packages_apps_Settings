@@ -1754,7 +1754,6 @@
             android:theme="@style/CryptKeeperBlankTheme"
         />
 
-<<<<<<< HEAD
         <activity android:name=".tesla.More" />
 	<activity android:name=".tesla.WeatherSettings" />
 
