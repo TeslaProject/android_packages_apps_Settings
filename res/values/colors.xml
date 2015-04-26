@@ -81,7 +81,6 @@
     <color name="switch_accent_color">#ff7fcac3</color>
 
     <color name="wifi_divider">#ffe0e0e0</color>
-
     <color name="sim_noitification">@*android:color/material_deep_teal_500</color>
     <!-- Expanded desktop -->
     <drawable name="expanded_item_bg_activated">#ffEEEEEE</drawable>
@@ -102,5 +101,4 @@
     <color name="exposed_barPrimaryColor">#ff009688</color>
     <color name="exposed_barPredictionColor">@color/material_empty_color_light</color>
 
-    <color name="floating_action_button_touch_tint">#80ffffff</color>
 </resources>
