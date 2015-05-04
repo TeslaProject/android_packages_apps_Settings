@@ -55,7 +55,7 @@ public class StatusBarExpandedQsSettings extends SettingsPreferenceFragment impl
     private static final String PREF_QS_TEXT_COLOR =
             "qs_text_color";
 
-    private static final int DEFAULT_BACKGROUND_COLOR = 0xff263238;
+    private static final int DEFAULT_BACKGROUND_COLOR = Color.exposed_bg_dark;
     private static final int WHITE = 0xffffffff;
     private static final int HOLO_BLUE_LIGHT = 0xff33b5e5;
 
