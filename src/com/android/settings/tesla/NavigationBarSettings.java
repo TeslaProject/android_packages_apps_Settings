@@ -8,7 +8,6 @@ import android.os.UserHandle;
 import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.Preference.OnPreferenceChangeListener;
-import android.preference.SwitchPreference;
 import android.provider.Settings;
 
 import com.android.settings.R;
@@ -21,13 +20,13 @@ public class NavigationBarSettings extends SettingsPreferenceFragment implements
 OnPreferenceChangeListener {
 
     private static final String KEY_NAVIGATION_BAR_HEIGHT = "navigation_bar_height";
+
     private static final String NAVIGATION_BAR_TINT = "navigation_bar_tint";
-    private static final String KILL_APP_LONGPRESS_BACK = "kill_app_longpress_back";
+
     private static final String RECENTS_CLEAR_ALL_LOCATION = "recents_clear_all_location";
 
     private ListPreference mNavigationBarHeight;
     private ColorPickerPreference mNavbarButtonTint;
-    private SwitchPreference mKillAppLongPressBack;
     private ListPreference mRecentsClearAllLocation;
 
     @Override
@@ -52,18 +51,13 @@ OnPreferenceChangeListener {
         mNavbarButtonTint.setSummary(hexColor);
         mNavbarButtonTint.setNewPreviewColor(intColor);
 
-        mKillAppLongPressBack = (SwitchPreference) findPreference(KILL_APP_LONGPRESS_BACK);
-        mKillAppLongPressBack.setOnPreferenceChangeListener(this);
-        int killAppLongPressBack = Settings.Secure.getInt(getContentResolver(),
-                KILL_APP_LONGPRESS_BACK, 0);
-        mKillAppLongPressBack.setChecked(killAppLongPressBack != 0);
-
         mRecentsClearAllLocation = (ListPreference) findPreference(RECENTS_CLEAR_ALL_LOCATION);
         int location = Settings.System.getIntForUser(getActivity().getContentResolver(),
                 Settings.System.RECENTS_CLEAR_ALL_LOCATION, 0, UserHandle.USER_CURRENT);
         mRecentsClearAllLocation.setValue(String.valueOf(location));
         mRecentsClearAllLocation.setSummary(mRecentsClearAllLocation.getEntry());
         mRecentsClearAllLocation.setOnPreferenceChangeListener(this);
+
     }
 
     public boolean onPreferenceChange(Preference preference, Object objValue) {
@@ -73,7 +67,8 @@ OnPreferenceChangeListener {
             Settings.System.putInt(getActivity().getApplicationContext().getContentResolver(),
                     Settings.System.NAVIGATION_BAR_HEIGHT, statusNavigationBarHeight);
             mNavigationBarHeight.setSummary(mNavigationBarHeight.getEntries()[index]);
-            return true;
+        }
+        return true;
         } else if (preference == mNavbarButtonTint) {
             String hex = ColorPickerPreference.convertToARGB(
                     Integer.valueOf(String.valueOf(objValue)));
@@ -81,11 +76,6 @@ OnPreferenceChangeListener {
             int intHex = ColorPickerPreference.convertToColorInt(hex);
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.NAVIGATION_BAR_TINT, intHex);
-            return true;
-        } else if (preference == mKillAppLongPressBack) {
-            boolean value = (Boolean) objValue;
-            Settings.Secure.putInt(getContentResolver(), 
-                    KILL_APP_LONGPRESS_BACK, value ? 1 : 0);
             return true;
         } else if (preference == mRecentsClearAllLocation) {
             int location = Integer.valueOf((String) objValue);
