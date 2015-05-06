@@ -26,7 +26,7 @@
     <drawable name="expanded_item_bg">@android:color/white</drawable>
 
     <!-- Quick settings -->
-    <color name="qs_background_color">#ffff263238</color>
+    <color name="qs_background_color">#ff263238</color>
     <color name="qs_dialog_add_tile_icon_color">#ffffffff</color>
     <color name="exposed_qs_tile_text">#de000000</color>
 
