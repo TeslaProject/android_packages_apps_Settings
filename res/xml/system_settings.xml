@@ -34,5 +34,11 @@
         android:id="@+id/app_circle_sidebar"
         android:title="@string/app_circle_bar_title"
         android:fragment="com.android.settings.tesla.AppCircleSidebar" />
+		
+    <Preference
+        android:key="privacy_guard_manager"
+        android:title="@string/privacy_guard_manager_title"
+        android:summary="@string/privacy_guard_manager_summary"
+        android:fragment="com.android.settings.simpleaosp.privacyguard.PrivacyGuardManager" />		
 
 </PreferenceScreen>
