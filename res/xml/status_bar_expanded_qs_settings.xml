@@ -60,7 +60,7 @@
         <net.margaritov.preference.colorpicker.ColorPickerPreference
             android:key="qs_background_color"
             android:title="@string/background_title"
-            android:defaultValue="@color/exposed_bg_dark" />
+            android:defaultValue="0xff263238" />
 
         <net.margaritov.preference.colorpicker.ColorPickerPreference
             android:key="qs_icon_color"
