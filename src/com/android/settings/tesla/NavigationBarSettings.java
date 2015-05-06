@@ -67,7 +67,6 @@ OnPreferenceChangeListener {
             Settings.System.putInt(getActivity().getApplicationContext().getContentResolver(),
                     Settings.System.NAVIGATION_BAR_HEIGHT, statusNavigationBarHeight);
             mNavigationBarHeight.setSummary(mNavigationBarHeight.getEntries()[index]);
-        }
         return true;
         } else if (preference == mNavbarButtonTint) {
             String hex = ColorPickerPreference.convertToARGB(
