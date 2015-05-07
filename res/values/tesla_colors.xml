@@ -21,17 +21,17 @@
     <color name="lockscreen_shortcuts_phone_screen_color">#ff37474f</color>
 
     <!-- Expanded desktop -->
-    <color name="text_color_white">@android:color/black</color>
-    <drawable name="expanded_item_bg_activated">@android:color/white</drawable>
-    <drawable name="expanded_item_bg">@android:color/white</drawable>
+    <color name="text_color_white">#ffffffff</color>
+    <drawable name="expanded_item_bg_activated">#ff000000</drawable>
+    <drawable name="expanded_item_bg">#ff000000</drawable>
 
     <!-- Quick settings -->
-    <color name="qs_background_color">#ff424242</color>
+    <color name="qs_background_color">#aa000000</color>
     <color name="qs_dialog_add_tile_icon_color">#ffffffff</color>
-    <color name="exposed_qs_tile_text">#de000000</color>
+    <color name="exposed_qs_tile_text">#deffffff</color>
 
     <!-- DSLV colors -->
-    <color name="dslv_icon_dark">#ff009688</color>
+    <color name="dslv_icon_dark">#ffff33b5e5</color>
     <color name="dslv_float_cackground_color">#ffe1e1e0</color>
 
 </resources>

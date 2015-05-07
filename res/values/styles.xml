@@ -21,6 +21,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:textAppearance">@style/TextAppearance.info_label</item>
+        <item name="android:textColor">@*android:color/primary_text_default_material_dark</item>		
         <item name="android:paddingEnd">4dip</item>
     </style>
 
@@ -29,6 +30,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:textAppearance">@style/TextAppearance.info_value</item>
+        <item name="android:textColor">@*android:color/primary_text_default_material_dark</item>		
     </style>
 
     <style name="info_small">
