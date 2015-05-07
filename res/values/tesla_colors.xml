@@ -31,7 +31,7 @@
     <color name="exposed_qs_tile_text">#deffffff</color>
 
     <!-- DSLV colors -->
-    <color name="dslv_icon_dark">#ffff33b5e5</color>
+    <color name="dslv_icon_dark">#ff33b5e5</color>
     <color name="dslv_float_cackground_color">#ffe1e1e0</color>
 
 </resources>
